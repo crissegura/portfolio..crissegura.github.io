@@ -18,3 +18,7 @@ sr.reveal('.tecnologias', {
     origin: 'left',
     distance: '-400px'
 });
+
+
+
+
