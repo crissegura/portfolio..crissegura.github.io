@@ -1,22 +1,23 @@
-let sobreMiModal = document.getElementById('sobreMiModal')
-let sobreMi = document.getElementById('sobreMi')
-let cerrarSM = document.getElementById('cerrarSM')
+const proyecto = document.getElementById('proyecto')
+const proyectosModal = document.getElementById('proyectosModal')
+const cerrarPR = document.getElementById('cerrarPR')
 
-sobreMi.onclick = () =>{
-    sobreMiModal.showModal()
-}
-cerrarSM.onclick = () =>{
-    sobreMiModal.close()
-}
-
-let proyectosModal = document.getElementById('proyectosModal')
-let proyectos = document.getElementById('proyectos')
-let cerrarPR = document.getElementById('cerrarPR')
-
-
-proyectos.onclick = () =>{
+proyecto.onclick=()=>{
     proyectosModal.showModal()
 }
-cerrarPR.onclick = () =>{
+
+cerrarPR.onclick=()=>{
     proyectosModal.close()
+}
+
+const sobreMi = document.getElementById('sobreMi')
+const sobreMiModal = document.getElementById('sobreMiModal')
+const cerrarSM = document.getElementById('cerrarSM')
+
+sobreMi.onclick=()=>{
+    sobreMiModal.showModal()
+}
+
+cerrarSM.onclick=()=>{
+    sobreMiModal.close()
 }

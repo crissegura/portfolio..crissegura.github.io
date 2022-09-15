@@ -13,23 +13,23 @@
 </head>
 <body class="body" id="body">
     <header class="header">
-        <nav style="height:80px;" class="navbar sticky-top navbar-expand-lg">
-            <div class="container-fluid">
-                <h3> < /> </h3>
-              <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <img class="buttonmenu" src="./Assets/menu.png" alt="menu">
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <button id="proyectos" class="aH btnAH nav-link active" style="color: white;font-size: 25px;" aria-current="page" style="font-size: 25px;">Proyectos</button>
-                  </li>
-                  <li class="nav-item">
-                    <button id="sobreMi" class="aH btnAH nav-link active" style="color: white;font-size: 25px;" aria-current="page" style="font-size: 25px;">Sobre mí</button>
-                  </li>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h3>< /></h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button id="proyecto">Proyectos</button>
+              </li>
+              <li class="nav-item">
+                <button id="sobreMi">Sobre mí</button>
+              </li>
+            </ul>
+          </div>
+      </nav>
     </header>
     <main>
         <section class="inicio">
@@ -54,7 +54,6 @@
         <dialog id="sobreMiModal">
           <div class="contenedorSobreMi">
             <button class="btncerrar" id="cerrarSM">❰❰ </button>
-            <h3 class="titulosm">Sobre mí</h3>
             <div class="fotoYnombre">
                 <div>
                     <img class="imgYo" src="./Assets/yo quien mas.jpg" alt="Cristian">
@@ -73,7 +72,6 @@
         <dialog id="proyectosModal">
           <div class="contenedorProyectos">
             <button class="btncerrar" id="cerrarPR">❰❰ </button>
-            <h3 class="titulosm">Proyectos</h3>
             <div class="proyecto todolist" >
               <img class="imgProy" src="./Assets/todolist.jpg" alt="todolist">
               <div class="textoPR">
