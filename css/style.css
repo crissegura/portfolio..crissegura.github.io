@@ -119,6 +119,10 @@
 .btncerrar:hover{
   transform: scale(1.1);
 }
+.psobremit{
+  font-size: 18px;
+  text-align: center;
+}
 /* -----------------MODAL PROYECTOS----------------- */
 #proyectosModal{
   width: 90%;
@@ -249,6 +253,6 @@
     margin: 10px;
   }
   .psobremit{
-    font-size: 30px;
+    font-size: 18px;
   }
 }
